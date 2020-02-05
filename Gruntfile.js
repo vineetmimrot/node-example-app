@@ -10,7 +10,7 @@ module.exports = function(grunt) {
           livereload: 35729
         }
       },
-      coffee: {
+      coffee: { 
         files: 'scripts/*.coffee',
         tasks: ['coffee']
       },
